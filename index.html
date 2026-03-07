@@ -853,7 +853,7 @@
     btn.disabled = true;
     btn.textContent = 'Enviando...';
 
-    const confirmText = `Gracias por su pedido de ${selectedPackage} (${selectedPrice}). Ingen ekte penger er brukt — dette er en skoleoppgave. Vi kontakter deg snart! — Hermanos de Alicante`;
+    const confirmText = `Gracias por su pedido de ${selectedPackage} (${selectedPrice}). Ingen ekte penger er brukt! Hermanos de Alicante`;
 
     try {
       const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
